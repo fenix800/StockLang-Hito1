@@ -1,0 +1,4 @@
+producto lapiz stock 10;
+si lapiz > 0 {
+    ajustar lapiz = borrador + 1;
+}

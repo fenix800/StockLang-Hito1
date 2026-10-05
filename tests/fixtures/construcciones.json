@@ -1,0 +1,44 @@
+{
+  "Declaración": [
+    "producto lapiz stock 100;",
+    "producto cuaderno stock 25;",
+    "producto borrador stock 0;",
+    "producto regla stock 8;",
+    "producto mochila stock 5;"
+  ],
+  "Movimiento": [
+    "entrada lapiz 10;",
+    "salida cuaderno 3;",
+    "entrada borrador 2 * 5;",
+    "salida regla 1 + 1;",
+    "entrada mochila (3 + 2) * 2;"
+  ],
+  "Ajuste": [
+    "ajustar lapiz = 80;",
+    "ajustar cuaderno = cuaderno + 5;",
+    "ajustar borrador = 4 * 6;",
+    "ajustar regla = regla - 1;",
+    "ajustar mochila = (2 + 3) * 2;"
+  ],
+  "Consulta": [
+    "mostrar lapiz;",
+    "mostrar cuaderno;",
+    "mostrar borrador;",
+    "mostrar regla;",
+    "mostrar mochila;"
+  ],
+  "Condicional": [
+    "si lapiz < 10 { entrada lapiz 20; }",
+    "si cuaderno == 0 { mostrar cuaderno; }",
+    "si borrador > 50 { salida borrador 5; }",
+    "si regla <= 3 { ajustar regla = 10; }",
+    "si mochila >= 5 { mostrar mochila; salida mochila 1; }"
+  ],
+  "Expresión": [
+    "10",
+    "lapiz + 5",
+    "2 * 3 + 1",
+    "cuaderno - 2",
+    "(4 + 6) * 2"
+  ]
+}

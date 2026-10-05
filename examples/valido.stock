@@ -1,0 +1,11 @@
+// Programa de ejemplo para el hito 1.
+producto lapiz stock 100;
+producto cuaderno stock 25;
+entrada lapiz 20;
+salida cuaderno 3;
+ajustar lapiz = lapiz + 2 * 5;
+si cuaderno < 10 {
+    entrada cuaderno 15;
+    mostrar cuaderno;
+}
+mostrar lapiz;
