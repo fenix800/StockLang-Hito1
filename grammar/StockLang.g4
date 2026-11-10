@@ -34,7 +34,7 @@ consulta
     ;
 
 condicional
-    : SI condicion bloque
+    : SI condicion bloque (SINO bloque)?
     ;
 
 condicion
@@ -79,6 +79,7 @@ SALIDA      : 'salida';
 AJUSTAR     : 'ajustar';
 MOSTRAR     : 'mostrar';
 SI          : 'si';
+SINO        : 'sino';
 MENOR_IGUAL : '<=';
 MAYOR_IGUAL : '>=';
 IGUAL       : '==';

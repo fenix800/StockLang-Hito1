@@ -1,4 +1,4 @@
-# Generated from /workspace/scratch/8b3f85e848a7/stocklang_hito1/grammar/StockLang.g4 by ANTLR 4.13.2
+# Generated from /workspace/scratch/bc304d303e56/output/StockLang_Hito2/grammar/StockLang.g4 by ANTLR 4.13.2
 from antlr4 import *
 if "." in __name__:
     from .StockLangParser import StockLangParser

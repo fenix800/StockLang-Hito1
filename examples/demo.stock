@@ -1,0 +1,17 @@
+// Inventario de útiles escolares: ambas decisiones tienen alternativa.
+producto lapiz stock 10;
+producto cuaderno stock 5;
+entrada lapiz 2 * 3;
+salida cuaderno 2;
+si lapiz < 15 {
+    entrada lapiz 10;
+} sino {
+    salida lapiz 1;
+}
+si cuaderno == 0 {
+    entrada cuaderno 5;
+} sino {
+    ajustar cuaderno = cuaderno + 2;
+}
+mostrar lapiz;
+mostrar cuaderno;

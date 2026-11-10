@@ -28,11 +28,11 @@
     "mostrar mochila;"
   ],
   "Condicional": [
-    "si lapiz < 10 { entrada lapiz 20; }",
-    "si cuaderno == 0 { mostrar cuaderno; }",
-    "si borrador > 50 { salida borrador 5; }",
-    "si regla <= 3 { ajustar regla = 10; }",
-    "si mochila >= 5 { mostrar mochila; salida mochila 1; }"
+    "si lapiz < 10 { entrada lapiz 20; } sino { mostrar lapiz; }",
+    "si cuaderno == 0 { entrada cuaderno 5; } sino { mostrar cuaderno; }",
+    "si borrador > 50 { salida borrador 5; } sino { entrada borrador 5; }",
+    "si regla <= 3 { ajustar regla = 10; } sino { mostrar regla; }",
+    "si mochila >= 5 { mostrar mochila; salida mochila 1; } sino { entrada mochila 2; }"
   ],
   "Expresión": [
     "10",

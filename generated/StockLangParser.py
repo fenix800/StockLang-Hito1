@@ -1,4 +1,4 @@
-# Generated from /workspace/scratch/8b3f85e848a7/stocklang_hito1/grammar/StockLang.g4 by ANTLR 4.13.2
+# Generated from /workspace/scratch/bc304d303e56/output/StockLang_Hito2/grammar/StockLang.g4 by ANTLR 4.13.2
 # encoding: utf-8
 from antlr4 import *
 from io import StringIO
@@ -10,43 +10,44 @@ else:
 
 def serializedATN():
     return [
-        4,1,26,119,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,27,122,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         1,0,4,0,30,8,0,11,0,12,0,31,1,0,5,0,35,8,0,10,0,12,0,38,9,0,1,0,
         1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,1,2,3,2,52,8,2,1,3,1,3,1,
         3,1,3,1,3,1,4,1,4,1,5,1,5,1,5,1,5,1,5,1,5,1,6,1,6,1,6,1,6,1,7,1,
-        7,1,7,1,7,1,8,1,8,1,8,1,8,1,9,1,9,1,10,1,10,4,10,83,8,10,11,10,12,
-        10,84,1,10,1,10,1,11,1,11,1,11,1,11,1,11,1,11,5,11,95,8,11,10,11,
-        12,11,98,9,11,1,12,1,12,1,12,1,12,1,12,1,12,5,12,106,8,12,10,12,
-        12,12,109,9,12,1,13,1,13,1,13,1,13,1,13,1,13,3,13,117,8,13,1,13,
-        0,2,22,24,14,0,2,4,6,8,10,12,14,16,18,20,22,24,26,0,3,1,0,3,4,1,
-        0,8,13,1,0,15,16,114,0,29,1,0,0,0,2,41,1,0,0,0,4,51,1,0,0,0,6,53,
-        1,0,0,0,8,58,1,0,0,0,10,60,1,0,0,0,12,66,1,0,0,0,14,70,1,0,0,0,16,
-        74,1,0,0,0,18,78,1,0,0,0,20,80,1,0,0,0,22,88,1,0,0,0,24,99,1,0,0,
-        0,26,116,1,0,0,0,28,30,3,2,1,0,29,28,1,0,0,0,30,31,1,0,0,0,31,29,
-        1,0,0,0,31,32,1,0,0,0,32,36,1,0,0,0,33,35,3,4,2,0,34,33,1,0,0,0,
-        35,38,1,0,0,0,36,34,1,0,0,0,36,37,1,0,0,0,37,39,1,0,0,0,38,36,1,
-        0,0,0,39,40,5,0,0,1,40,1,1,0,0,0,41,42,5,1,0,0,42,43,5,24,0,0,43,
-        44,5,2,0,0,44,45,5,23,0,0,45,46,5,18,0,0,46,3,1,0,0,0,47,52,3,6,
-        3,0,48,52,3,10,5,0,49,52,3,12,6,0,50,52,3,14,7,0,51,47,1,0,0,0,51,
-        48,1,0,0,0,51,49,1,0,0,0,51,50,1,0,0,0,52,5,1,0,0,0,53,54,3,8,4,
-        0,54,55,5,24,0,0,55,56,3,22,11,0,56,57,5,18,0,0,57,7,1,0,0,0,58,
-        59,7,0,0,0,59,9,1,0,0,0,60,61,5,5,0,0,61,62,5,24,0,0,62,63,5,14,
-        0,0,63,64,3,22,11,0,64,65,5,18,0,0,65,11,1,0,0,0,66,67,5,6,0,0,67,
-        68,5,24,0,0,68,69,5,18,0,0,69,13,1,0,0,0,70,71,5,7,0,0,71,72,3,16,
-        8,0,72,73,3,20,10,0,73,15,1,0,0,0,74,75,3,22,11,0,75,76,3,18,9,0,
-        76,77,3,22,11,0,77,17,1,0,0,0,78,79,7,1,0,0,79,19,1,0,0,0,80,82,
-        5,19,0,0,81,83,3,4,2,0,82,81,1,0,0,0,83,84,1,0,0,0,84,82,1,0,0,0,
-        84,85,1,0,0,0,85,86,1,0,0,0,86,87,5,20,0,0,87,21,1,0,0,0,88,89,6,
-        11,-1,0,89,90,3,24,12,0,90,96,1,0,0,0,91,92,10,2,0,0,92,93,7,2,0,
-        0,93,95,3,24,12,0,94,91,1,0,0,0,95,98,1,0,0,0,96,94,1,0,0,0,96,97,
-        1,0,0,0,97,23,1,0,0,0,98,96,1,0,0,0,99,100,6,12,-1,0,100,101,3,26,
-        13,0,101,107,1,0,0,0,102,103,10,2,0,0,103,104,5,17,0,0,104,106,3,
-        26,13,0,105,102,1,0,0,0,106,109,1,0,0,0,107,105,1,0,0,0,107,108,
-        1,0,0,0,108,25,1,0,0,0,109,107,1,0,0,0,110,117,5,23,0,0,111,117,
-        5,24,0,0,112,113,5,21,0,0,113,114,3,22,11,0,114,115,5,22,0,0,115,
-        117,1,0,0,0,116,110,1,0,0,0,116,111,1,0,0,0,116,112,1,0,0,0,117,
-        27,1,0,0,0,7,31,36,51,84,96,107,116
+        7,1,7,1,7,1,7,3,7,76,8,7,1,8,1,8,1,8,1,8,1,9,1,9,1,10,1,10,4,10,
+        86,8,10,11,10,12,10,87,1,10,1,10,1,11,1,11,1,11,1,11,1,11,1,11,5,
+        11,98,8,11,10,11,12,11,101,9,11,1,12,1,12,1,12,1,12,1,12,1,12,5,
+        12,109,8,12,10,12,12,12,112,9,12,1,13,1,13,1,13,1,13,1,13,1,13,3,
+        13,120,8,13,1,13,0,2,22,24,14,0,2,4,6,8,10,12,14,16,18,20,22,24,
+        26,0,3,1,0,3,4,1,0,9,14,1,0,16,17,118,0,29,1,0,0,0,2,41,1,0,0,0,
+        4,51,1,0,0,0,6,53,1,0,0,0,8,58,1,0,0,0,10,60,1,0,0,0,12,66,1,0,0,
+        0,14,70,1,0,0,0,16,77,1,0,0,0,18,81,1,0,0,0,20,83,1,0,0,0,22,91,
+        1,0,0,0,24,102,1,0,0,0,26,119,1,0,0,0,28,30,3,2,1,0,29,28,1,0,0,
+        0,30,31,1,0,0,0,31,29,1,0,0,0,31,32,1,0,0,0,32,36,1,0,0,0,33,35,
+        3,4,2,0,34,33,1,0,0,0,35,38,1,0,0,0,36,34,1,0,0,0,36,37,1,0,0,0,
+        37,39,1,0,0,0,38,36,1,0,0,0,39,40,5,0,0,1,40,1,1,0,0,0,41,42,5,1,
+        0,0,42,43,5,25,0,0,43,44,5,2,0,0,44,45,5,24,0,0,45,46,5,19,0,0,46,
+        3,1,0,0,0,47,52,3,6,3,0,48,52,3,10,5,0,49,52,3,12,6,0,50,52,3,14,
+        7,0,51,47,1,0,0,0,51,48,1,0,0,0,51,49,1,0,0,0,51,50,1,0,0,0,52,5,
+        1,0,0,0,53,54,3,8,4,0,54,55,5,25,0,0,55,56,3,22,11,0,56,57,5,19,
+        0,0,57,7,1,0,0,0,58,59,7,0,0,0,59,9,1,0,0,0,60,61,5,5,0,0,61,62,
+        5,25,0,0,62,63,5,15,0,0,63,64,3,22,11,0,64,65,5,19,0,0,65,11,1,0,
+        0,0,66,67,5,6,0,0,67,68,5,25,0,0,68,69,5,19,0,0,69,13,1,0,0,0,70,
+        71,5,7,0,0,71,72,3,16,8,0,72,75,3,20,10,0,73,74,5,8,0,0,74,76,3,
+        20,10,0,75,73,1,0,0,0,75,76,1,0,0,0,76,15,1,0,0,0,77,78,3,22,11,
+        0,78,79,3,18,9,0,79,80,3,22,11,0,80,17,1,0,0,0,81,82,7,1,0,0,82,
+        19,1,0,0,0,83,85,5,20,0,0,84,86,3,4,2,0,85,84,1,0,0,0,86,87,1,0,
+        0,0,87,85,1,0,0,0,87,88,1,0,0,0,88,89,1,0,0,0,89,90,5,21,0,0,90,
+        21,1,0,0,0,91,92,6,11,-1,0,92,93,3,24,12,0,93,99,1,0,0,0,94,95,10,
+        2,0,0,95,96,7,2,0,0,96,98,3,24,12,0,97,94,1,0,0,0,98,101,1,0,0,0,
+        99,97,1,0,0,0,99,100,1,0,0,0,100,23,1,0,0,0,101,99,1,0,0,0,102,103,
+        6,12,-1,0,103,104,3,26,13,0,104,110,1,0,0,0,105,106,10,2,0,0,106,
+        107,5,18,0,0,107,109,3,26,13,0,108,105,1,0,0,0,109,112,1,0,0,0,110,
+        108,1,0,0,0,110,111,1,0,0,0,111,25,1,0,0,0,112,110,1,0,0,0,113,120,
+        5,24,0,0,114,120,5,25,0,0,115,116,5,22,0,0,116,117,3,22,11,0,117,
+        118,5,23,0,0,118,120,1,0,0,0,119,113,1,0,0,0,119,114,1,0,0,0,119,
+        115,1,0,0,0,120,27,1,0,0,0,8,31,36,51,75,87,99,110,119
     ]
 
 class StockLangParser ( Parser ):
@@ -60,16 +61,16 @@ class StockLangParser ( Parser ):
     sharedContextCache = PredictionContextCache()
 
     literalNames = [ "<INVALID>", "'producto'", "'stock'", "'entrada'", 
-                     "'salida'", "'ajustar'", "'mostrar'", "'si'", "'<='", 
-                     "'>='", "'=='", "'!='", "'<'", "'>'", "'='", "'+'", 
-                     "'-'", "'*'", "';'", "'{'", "'}'", "'('", "')'" ]
+                     "'salida'", "'ajustar'", "'mostrar'", "'si'", "'sino'", 
+                     "'<='", "'>='", "'=='", "'!='", "'<'", "'>'", "'='", 
+                     "'+'", "'-'", "'*'", "';'", "'{'", "'}'", "'('", "')'" ]
 
     symbolicNames = [ "<INVALID>", "PRODUCTO", "STOCK", "ENTRADA", "SALIDA", 
-                      "AJUSTAR", "MOSTRAR", "SI", "MENOR_IGUAL", "MAYOR_IGUAL", 
-                      "IGUAL", "DISTINTO", "MENOR", "MAYOR", "ASIGNAR", 
-                      "SUMA", "RESTA", "MULTIPLICAR", "PUNTO_COMA", "LLAVE_IZQ", 
-                      "LLAVE_DER", "PAREN_IZQ", "PAREN_DER", "NUMERO", "ID", 
-                      "COMENTARIO", "ESPACIO" ]
+                      "AJUSTAR", "MOSTRAR", "SI", "SINO", "MENOR_IGUAL", 
+                      "MAYOR_IGUAL", "IGUAL", "DISTINTO", "MENOR", "MAYOR", 
+                      "ASIGNAR", "SUMA", "RESTA", "MULTIPLICAR", "PUNTO_COMA", 
+                      "LLAVE_IZQ", "LLAVE_DER", "PAREN_IZQ", "PAREN_DER", 
+                      "NUMERO", "ID", "COMENTARIO", "ESPACIO" ]
 
     RULE_programa = 0
     RULE_declaracion = 1
@@ -99,25 +100,26 @@ class StockLangParser ( Parser ):
     AJUSTAR=5
     MOSTRAR=6
     SI=7
-    MENOR_IGUAL=8
-    MAYOR_IGUAL=9
-    IGUAL=10
-    DISTINTO=11
-    MENOR=12
-    MAYOR=13
-    ASIGNAR=14
-    SUMA=15
-    RESTA=16
-    MULTIPLICAR=17
-    PUNTO_COMA=18
-    LLAVE_IZQ=19
-    LLAVE_DER=20
-    PAREN_IZQ=21
-    PAREN_DER=22
-    NUMERO=23
-    ID=24
-    COMENTARIO=25
-    ESPACIO=26
+    SINO=8
+    MENOR_IGUAL=9
+    MAYOR_IGUAL=10
+    IGUAL=11
+    DISTINTO=12
+    MENOR=13
+    MAYOR=14
+    ASIGNAR=15
+    SUMA=16
+    RESTA=17
+    MULTIPLICAR=18
+    PUNTO_COMA=19
+    LLAVE_IZQ=20
+    LLAVE_DER=21
+    PAREN_IZQ=22
+    PAREN_DER=23
+    NUMERO=24
+    ID=25
+    COMENTARIO=26
+    ESPACIO=27
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -565,9 +567,15 @@ class StockLangParser ( Parser ):
             return self.getTypedRuleContext(StockLangParser.CondicionContext,0)
 
 
-        def bloque(self):
-            return self.getTypedRuleContext(StockLangParser.BloqueContext,0)
+        def bloque(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(StockLangParser.BloqueContext)
+            else:
+                return self.getTypedRuleContext(StockLangParser.BloqueContext,i)
 
+
+        def SINO(self):
+            return self.getToken(StockLangParser.SINO, 0)
 
         def getRuleIndex(self):
             return StockLangParser.RULE_condicional
@@ -585,6 +593,7 @@ class StockLangParser ( Parser ):
 
         localctx = StockLangParser.CondicionalContext(self, self._ctx, self.state)
         self.enterRule(localctx, 14, self.RULE_condicional)
+        self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 70
@@ -593,6 +602,16 @@ class StockLangParser ( Parser ):
             self.condicion()
             self.state = 72
             self.bloque()
+            self.state = 75
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==8:
+                self.state = 73
+                self.match(StockLangParser.SINO)
+                self.state = 74
+                self.bloque()
+
+
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -638,11 +657,11 @@ class StockLangParser ( Parser ):
         self.enterRule(localctx, 16, self.RULE_condicion)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 74
+            self.state = 77
             self.expresion(0)
-            self.state = 75
+            self.state = 78
             self.comparador()
-            self.state = 76
+            self.state = 79
             self.expresion(0)
         except RecognitionException as re:
             localctx.exception = re
@@ -697,9 +716,9 @@ class StockLangParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 78
+            self.state = 81
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 16128) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 32256) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -752,21 +771,21 @@ class StockLangParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 80
+            self.state = 83
             self.match(StockLangParser.LLAVE_IZQ)
-            self.state = 82 
+            self.state = 85 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 81
+                self.state = 84
                 self.instruccion()
-                self.state = 84 
+                self.state = 87 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 248) != 0)):
                     break
 
-            self.state = 86
+            self.state = 89
             self.match(StockLangParser.LLAVE_DER)
         except RecognitionException as re:
             localctx.exception = re
@@ -819,12 +838,12 @@ class StockLangParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 89
+            self.state = 92
             self.termino(0)
             self._ctx.stop = self._input.LT(-1)
-            self.state = 96
+            self.state = 99
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,4,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,5,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
                     if self._parseListeners is not None:
@@ -832,22 +851,22 @@ class StockLangParser ( Parser ):
                     _prevctx = localctx
                     localctx = StockLangParser.ExpresionContext(self, _parentctx, _parentState)
                     self.pushNewRecursionContext(localctx, _startState, self.RULE_expresion)
-                    self.state = 91
+                    self.state = 94
                     if not self.precpred(self._ctx, 2):
                         from antlr4.error.Errors import FailedPredicateException
                         raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
-                    self.state = 92
+                    self.state = 95
                     _la = self._input.LA(1)
-                    if not(_la==15 or _la==16):
+                    if not(_la==16 or _la==17):
                         self._errHandler.recoverInline(self)
                     else:
                         self._errHandler.reportMatch(self)
                         self.consume()
-                    self.state = 93
+                    self.state = 96
                     self.termino(0) 
-                self.state = 98
+                self.state = 101
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,4,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,5,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -896,12 +915,12 @@ class StockLangParser ( Parser ):
         self.enterRecursionRule(localctx, 24, self.RULE_termino, _p)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 100
+            self.state = 103
             self.factor()
             self._ctx.stop = self._input.LT(-1)
-            self.state = 107
+            self.state = 110
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,5,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,6,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
                     if self._parseListeners is not None:
@@ -909,17 +928,17 @@ class StockLangParser ( Parser ):
                     _prevctx = localctx
                     localctx = StockLangParser.TerminoContext(self, _parentctx, _parentState)
                     self.pushNewRecursionContext(localctx, _startState, self.RULE_termino)
-                    self.state = 102
+                    self.state = 105
                     if not self.precpred(self._ctx, 2):
                         from antlr4.error.Errors import FailedPredicateException
                         raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
-                    self.state = 103
+                    self.state = 106
                     self.match(StockLangParser.MULTIPLICAR)
-                    self.state = 104
+                    self.state = 107
                     self.factor() 
-                self.state = 109
+                self.state = 112
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,5,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,6,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -970,26 +989,26 @@ class StockLangParser ( Parser ):
         localctx = StockLangParser.FactorContext(self, self._ctx, self.state)
         self.enterRule(localctx, 26, self.RULE_factor)
         try:
-            self.state = 116
+            self.state = 119
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [23]:
+            if token in [24]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 110
+                self.state = 113
                 self.match(StockLangParser.NUMERO)
                 pass
-            elif token in [24]:
+            elif token in [25]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 111
+                self.state = 114
                 self.match(StockLangParser.ID)
                 pass
-            elif token in [21]:
+            elif token in [22]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 112
+                self.state = 115
                 self.match(StockLangParser.PAREN_IZQ)
-                self.state = 113
+                self.state = 116
                 self.expresion(0)
-                self.state = 114
+                self.state = 117
                 self.match(StockLangParser.PAREN_DER)
                 pass
             else:

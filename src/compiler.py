@@ -16,12 +16,16 @@ class AnalysisResult:
     symbols: dict[str, ProductSymbol] = field(default_factory=dict)
     diagnostics: list[Diagnostic] = field(default_factory=list)
 
+    final_stocks: dict = field(default_factory=dict)
+    ir: list = field(default_factory=list)
+    execution: dict | None = None
+
     @property
     def ok(self):
         return not self.diagnostics
 
 
-def analyze(source: str, stage: str = "semantic") -> AnalysisResult:
+def analyze(source: str, stage: str = "semantic", *, emit_ir=False, run=False) -> AnalysisResult:
     """Se detiene si hay errores en una fase. Las columnas empiezan en 1."""
     if stage not in {"lex", "syntax", "semantic"}:
         raise ValueError(f"Fase desconocida: {stage}")
@@ -59,4 +63,12 @@ def analyze(source: str, stage: str = "semantic") -> AnalysisResult:
     semantic.visit(tree)
     result.symbols = semantic.symbols
     result.diagnostics.extend(semantic.diagnostics)
+    result.final_stocks = semantic.values.copy()
+    if result.ok and (emit_ir or run):
+        from src.ir import IRGenerator, execute
+        generator = IRGenerator()
+        generator.visit(tree)
+        result.ir = generator.code
+        if run:
+            result.execution = execute(result.ir)
     return result
